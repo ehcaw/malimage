@@ -6,39 +6,15 @@ Written by Daniel Quach, Joseph Nguyen, Ryan Nguyen
 
 ### Background and Motivation
 
-[Provide context about the problem domain and why this machine learning task is important]
-
-### Problem Statement
-
-[Clearly state the problem you are addressing with machine learning]
+The objective of this project is to use various model architectures to classify whether or not software is malicious or not. The dataset contains software binaries that have been converted to images in .jpg format. We will use 5 different types of models: CNNs, NLP, SVM, KNN, and LS.
 
 ### Dataset Overview
 
-[Briefly introduce the dataset(s) used in this project]
+The dataset contains images that were converted from software binaries. There are 24,000+ data points in the dataset, presplit into test, training, and validation datasets. The dataset is balanced, meaning there are roughly equal numbers of malicious images to benign images.
 
 ### Report Structure
 
-[Outline what the reader can expect in each section of the report]
-
----
-
-## 2. Objective
-
-### Primary Goals
-
-[List the main objectives of this machine learning project]
-
-### Success Metrics
-
-[Define how you will measure the success of your models]
-
-### Scope and Limitations
-
-[Clarify what is within and outside the scope of this project]
-
-### Research Questions
-
-[List specific questions your project aims to answer]
+The report is structured into 4 main sections: experimental design, implementation, comparison and analysis and the conclusions we drew.
 
 ---
 
@@ -46,14 +22,20 @@ Written by Daniel Quach, Joseph Nguyen, Ryan Nguyen
 
 ### Data Collection and Preprocessing
 
-- **Data Sources**: [Describe where your data comes from]
-- **Data Cleaning**: [Explain preprocessing steps]
+- **Data Sources**: Our dataset is a well structured dataset from Kaggle.
+- **Data Cleaning**: The dataset is already clean, we would just have to convert the images into the various input forms of the models.
 - **Feature Engineering**: [Describe how features were created/selected]
 - **Data Splitting**: [Explain train/validation/test split strategy]
 
 ### Model Selection
 
-[List and justify the machine learning models chosen for comparison]
+We chose 5 different model types to attempt malware identification with.
+
+- CNN:
+- NLP:
+- SVM:
+- KNN:
+- LS:
 
 ### Evaluation Metrics
 
